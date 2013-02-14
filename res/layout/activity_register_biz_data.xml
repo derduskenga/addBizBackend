@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterBizData"
+    android:background="@drawable/water_drop" >
+
+    <EditText
+        android:id="@+id/txtBizDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btnRegisterBizLocation"
+        android:layout_below="@+id/lblBizDescritpion"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="@string/Enter_business_description"
+        android:maxLength="255" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblBizDescritpion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/Business_description"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnRegisterBizLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBizDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="@string/Add_Bisiness_Location" />
+
+    <TextView
+        android:id="@+id/lblShowRemainingSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtBizDescription"
+        android:layout_alignTop="@+id/txtBizDescription"
+        android:layout_toRightOf="@+id/txtBizDescription"
+        android:text="@string/show_rem_size" />
+
+    
+    
+</RelativeLayout>

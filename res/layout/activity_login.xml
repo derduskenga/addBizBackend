@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login" 
+    android:background="@drawable/water_drop">
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:text="    Email" />
+
+    <TextView
+        android:id="@+id/lblCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnLogin"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="38dp"
+        android:text="    New to addBizz? Create account>>"
+        android:textColor="#0b84aa"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCreateAccount"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblCreateAccount"
+        android:layout_marginTop="27dp"
+        android:text="    Forgot your password>>"
+        android:textColor="#0b84aa"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="22dp"
+        android:text="   Password" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtPassword"
+        android:layout_marginTop="22dp"
+        android:text="Login to your account" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblPassword"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+</RelativeLayout>
