@@ -12,7 +12,7 @@
 		echo addProduct($type,$email,$name,$pDescription);
 			
 	}else{
-		
+		//similar product was found
 		echo "Similar product already in register";
 	}
 	
