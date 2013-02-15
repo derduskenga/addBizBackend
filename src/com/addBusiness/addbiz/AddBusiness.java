@@ -23,9 +23,9 @@ import org.apache.http.params.HttpParams;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.addBusiness.addbiz.R.string;
 
-import android.media.audiofx.Visualizer;
+
+
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
