@@ -6,6 +6,8 @@
 	$email = $_POST['email'];
 	$name = $_POST['name'];
 	$pDescription = $_POST['pDescription'];
+	//added this field so that i can test on how to pull content so tahat my local files are simila to those of the master fie.
+	$message = "";
 	
 	if(checkMail_type ($name,$type)){
 	
