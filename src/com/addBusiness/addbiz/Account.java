@@ -5,6 +5,7 @@ public class Account {
 	private long id;
 	private String email;
 	private String password;
+	private String msg;
 	
 	
 	//empty constructor.
