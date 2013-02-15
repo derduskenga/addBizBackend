@@ -31,6 +31,7 @@ public class AddBizDashboardActivity extends Activity {
 	AccountManager acm = null;
 	String USER_GOOGLE_MAIL = "";
 	private AddBizDashboardActivity _this;
+	private Strig str="";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
