@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount"
+    android:background="@drawable/water_drop" >
+
+    <EditText
+        android:id="@+id/txtCPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblCPassword"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtCPassword"
+        android:layout_marginTop="15dp"
+        android:text="Create account" />
+
+    <TextView
+        android:id="@+id/lblAlreadyHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnCreateAccount"
+        android:layout_marginTop="17dp"
+        android:text="    Already have account? Login>>"
+        android:textColor="#0b84aa"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="    Confirm password" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblCPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtPassword"
+        android:layout_alignParentLeft="true"
+        android:text="    Password" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblEmail"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblError"
+        android:layout_marginTop="21dp"
+        android:text="    Email address" />
+
+    <TextView
+        android:id="@+id/lblError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="" 
+        android:textColor="#d81417"/>
+
+</RelativeLayout>

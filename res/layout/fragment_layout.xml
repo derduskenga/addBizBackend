@@ -1,0 +1,50 @@
+<!-- Your package folder -->
+<com.addBusiness.addbiz.AddBizDashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/water_drop" >
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_add_places"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/search_places"
+        android:text="Add business places" />
+ 
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_add_biz"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/add_biz"
+        android:text="Add biz" />
+ 
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_search_places"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/search_places"
+        android:text="Things and places" />
+ 
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_search_biz"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/search_biz"
+        android:text="Search biz" />
+ 
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/about"
+        android:text="Get help" />
+ 
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_cover"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/cover"
+        android:text="" />
+ 
+</com.addBusiness.addbiz.AddBizDashboardLayout>
